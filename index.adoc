@@ -1,0 +1,130 @@
+---
+sidebar: sidebar 
+permalink: index.html 
+---
+= Contribua para o conteúdo técnico do NetApp no GitHub
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+A documentação dos produtos e serviços da NetApp é de código aberto. Isso permite que você contribua para o conteúdo fazendo melhorias, correções e sugestões. Tudo que você precisa é de uma conta no GitHub e uma pequena iniciativa.
+
+
+
+== Visão geral
+
+Você pode contribuir com nossos documentos usando as seguintes opções:
+
+* Selecione *solicitar alterações de documentos* para enviar feedback geral ou para fazer uma pergunta sobre o conteúdo. O lead de conteúdo do NetApp analisa sua solicitação para determinar quais alterações são necessárias para os documentos. Esta é a opção mais comum.
++
+<<Solicitar alterações ao documento,Veja instruções passo a passo para esta opção>>.
+
+* Selecione *Editar esta página* para editar diretamente o conteúdo. O lead de conteúdo do NetApp revê suas edições e as funde.
++
+<<Envie edições para os documentos,Veja instruções passo a passo para esta opção>>.
+
+
+
+O vídeo a seguir fornece uma breve visão geral dessas duas opções.
+
+.Visão geral da contribuição para docs.NetApp.com
+video::37b6207f-30cd-4517-a80a-b08a0138059b[panopto]
+As seções abaixo fornecem instruções passo a passo.
+
+
+
+== Solicitar alterações ao documento
+
+Enviar uma solicitação para uma mudança de documento é a maneira mais comum de contribuir com os documentos do NetApp. Depois de enviar a solicitação, o lead de conteúdo confirmará que recebeu seu feedback. Você receberá uma notificação por e-mail do GitHub quando eles fizerem isso.
+
+Se o lead de conteúdo concordar que sua sugestão pode tornar o conteúdo melhor, ele irá cometer a alteração logo após isso. Você receberá outra notificação de que seu feedback foi incorporado.
+
+
+TIP: Todos os comentários que você fornecer são visíveis publicamente. Qualquer pessoa que navegue para os problemas no repositório do GitHub pode ver seus comentários.
+
+.Passos
+. Se você ainda não tem uma conta no GitHub, https://github.com/join["crie um a partir de github.com"^]
+. Faça login na sua conta do GitHub.
+. Usando seu navegador da Web, abra a página https://docs.netapp.com["docs.NetApp.com"] relacionada ao seu feedback.
+. Na parte superior da página, selecione *sugerir alterações > solicitar alterações ao documento*.
++
+image:screenshot-request-doc-changes.png["Solicitar alterações ao documento"]
+
++
+Uma nova guia do navegador é aberta com um formulário do GitHub que você pode usar para fornecer detalhes à nossa equipe de documentação.
+
+. Insira um título, resumo e reconheça que o problema não contém informações confidenciais.
++
+O formulário é pré-preenchido com a URL e o título da página. Não exclua essas informações porque precisaremos delas para entender seu pedido.
+
++
+image:screenshot-submit-new-issue.png["Enviar nova edição"]
+
+. Selecione *Enviar novo problema* para criar um problema para sua solicitação.
+
+
+.Depois de terminar
+Abrir um problema permite a colaboração através dos comentários do GitHub. Você receberá notificações por e-mail com base nas preferências que você indicou nas configurações da sua conta do GitHub.
+
+Você também pode visualizar o status da solicitação selecionando *issues* no banner do GitHub:
+
+image:screenshot-issues.png["Guia problemas"]
+
+
+
+== Envie edições para os documentos
+
+Se você estiver confortável editando o conteúdo sozinho, você pode enviar as alterações exatas de documentos que você gostaria de ver editando diretamente o arquivo de origem.
+
+Como colaborador externo, você não poderá publicar a alteração diretamente. O lead de conteúdo revisará as alterações, fará todas as edições necessárias e, em seguida, mesclará as alterações. Você receberá uma notificação por e-mail do GitHub quando isso acontecer.
+
+Se você precisar de ajuda com nosso estilo de escrita ou sintaxe de origem, você pode usar esses recursos:
+
+* link:style.html["Guia de estilo para documentos do NetApp"]
+* link:asciidoc_syntax.html["Sintaxe AsciiDoc"]
+
+
+.Passos
+. Se você ainda não tem uma conta no GitHub, https://github.com/join["crie um a partir de github.com"^]
+. Faça login na sua conta do GitHub.
+. Usando o navegador da Web, abra a página https://docs.netapp.com["docs.NetApp.com"] na qual você deseja editar.
+. Na parte superior da página, selecione *sugerir alterações > Editar esta página*.
++
+image:screenshot-edit-this-page.png["Edite esta página"]
+
++
+Uma nova guia do navegador é aberta e leva você ao arquivo no repositório do GitHub para o site de documentação.
+
+. Selecione o ícone de lápis.
++
+image:screenshot-pencil-icon.png["Ícone de lápis"]
+
+. Se você for solicitado a criar um fork do repositório, selecione *fork this repository*.
+. Edite o conteúdo.
++
+O conteúdo é escrito em AsciiDoc, uma linguagem de marcação leve. link:asciidoc_syntax.html["Saiba mais sobre a sintaxe AsciiDoc"].
+
+. Para confirmar suas alterações, selecione *Commit Changes* e preencha o formulário:
++
+.. Opcionalmente, modifique a mensagem de confirmação padrão.
+.. Adicione uma descrição opcional.
+.. Selecione *propor alterações*.
++
+image:screenshot-propose-change.png["Propor alteração de ficheiro"]
+
+
+
+. Selecione *criar solicitação de recebimento*.
+
+
+.Depois de terminar
+Depois de propor as alterações, vamos analisá-las, fazer todas as edições necessárias e, em seguida, mesclar as alterações no repositório GitHub.
+
+Você pode ver o status da solicitação de recebimento selecionando *solicitações de recebimento* no banner do GitHub:
+
+image:screenshot-view-pull-requests.png["Puxe a aba de solicitação"]

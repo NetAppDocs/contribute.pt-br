@@ -1,0 +1,746 @@
+---
+sidebar: sidebar 
+permalink: style.html 
+---
+= Guia de estilo para documentos do NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nosso estilo é conversacional e empático, mas ficamos profissionais e chegamos ao ponto. Siga estas diretrizes ao escrever conteúdo para documentos do NetApp.
+
+
+
+== Escreva de forma convergente
+
+Escreva como você fala quando estiver explicando algo para um colega profissional. Escrever em um tom de conversação ajuda você a se conetar com seu público.
+
+|===
+| Demasiado formal | Muito casual | O nosso estilo 
+
+
+| Se você tiver problemas com a disposição em camadas do BlueXP , poderá visualizar o status de integridade no painel do cluster para determinar por que o erro ocorreu. A integridade reflete o status do sistema ONTAP e do conetor de serviço. | Não é divertido quando as falhas acontecem. No entanto, não se preocupe, apenas confira o Painel de cluster para ver o que aconteceu e o que é afetado. | Quando houver uma falha, a disposição em camadas do BlueXP  exibe um status de integridade "Falha" no Painel de cluster. Veja o status para obter informações sobre a falha. 
+
+
+| Antes de provisionar o storage, você deve descobrir o cluster do ONTAP na BlueXP . Após a conclusão da descoberta, você precisa abrir o ambiente de trabalho para provisionar o storage. | Tudo o que você faz é primeiro descobrir o cluster do ONTAP do BlueXP  e, em seguida, abrir o ambiente de trabalho para iniciar o provisionamento de storage. Fácil! | Depois de descobrir o cluster do ONTAP da BlueXP , abra o ambiente de trabalho para provisionar o storage. 
+
+
+| Quando o assistente de configuração for iniciado, siga as instruções do assistente para configurar o nó e associá-lo ao cluster. As etapas a seguir indicam as etapas do assistente. | O assistente de configuração aparece (quase como mágica), para guiá-lo através do processo simples de configuração do nó e juntá-lo ao cluster. | Siga as instruções do assistente de configuração para configurar o nó e associá-lo ao cluster. 
+
+
+| Você pode escolher entre vários tipos de formato de conteúdo para instalar e configurar seu novo sistema. Cada tipo de formato fornece instruções completas. Escolha o tipo de formato que mais se aproxima da maneira que você gosta de aprender. | Como pretende configurar e instalar o seu sistema? Fornecemos instruções em vários tipos de formato de conteúdo, mas só você sabe como você gosta de aprender. | Escolha um tipo de formato de conteúdo para guiá-lo através da instalação e configuração do seu sistema. 
+|===
+
+
+=== Use contrações
+
+As contrações reforçam a <<Escreva de forma convergente,tom de conversação>>, e muitas contrações são fáceis de entender e traduzir.
+
+.Expanda para saber mais
+[%collapsible]
+====
+* Use contrações como estas, que são fáceis de entender e traduzir:
++
+|===
+
+
+| não | você é 
+
+
+| não é | nós estamos 
+
+
+| não foi | é 
+
+
+| não foram | vamos 
+
+
+| não | nós vamos (se o tempo futuro for necessário) 
+
+
+| não | não (se for necessário tempo futuro) 
+
+
+| não | você vai (se o tempo futuro for necessário) 
+|===
+* Não use contrações como estas, que são difíceis de entender e traduzir:
++
+|===
+
+
+| teria | deveria ter 
+
+
+| não teria | não deveria ter 
+
+
+| poderia ter | não poderia ter 
+|===
+
+
+====
+
+
+== Escreva de forma simples
+
+Evite palavras grandes e confusas. Mantenha-o simples. Você está explicando algo para um colega profissional, não mostrando seu vocabulário.
+
+**Em vez disso**: "Dissocie o usuário da sua conta do NetApp Cloud Central".
+
+**Faça isso**: "Remova o usuário da sua conta do NetApp Cloud Central."
+
+
+
+== Escreva minimamente
+
+Frases curtas e simples tornam o conteúdo mais fácil de ler ou digitalizar. Não há problema em usar uma frase mais longa de vez em quando, mas segui-la com uma mais curta. Assim.
+
+**Em vez disso**: "Para replicar dados entre um sistema Cloud Volumes ONTAP na AWS e sistemas ONTAP em outras redes, você deve ter uma conexão VPN entre a Amazon VPC e a outra rede, por exemplo, um Azure VNet ou sua rede corporativa."
+
+** Faça isso**: "A replicação de dados entre redes requer conexão através de uma VPN. Por exemplo, entre a Amazon VPC e a rede corporativa ou entre a AWS e o Azure."
+
+Pergunte a si mesmo o seguinte:
+
+* Os usuários precisam deste conteúdo neste lugar, neste momento?
+* A interface do usuário já orienta o usuário bem o suficiente? Se isso não acontecer, que orientação adicional pode ser adicionada sucintamente?
+* Posso apresentar o conteúdo em menos palavras sem parecer formal ou muito casual?
+* Posso encurtar ou simplificar uma frase longa ou dividi-la em duas ou mais frases?
+* Posso usar uma lista para tornar o conteúdo mais digitalizável?
+* Posso usar um gráfico para aumentar ou substituir um bloco de texto?
+
+
+
+
+== Escreva ativamente
+
+Evitar a voz passiva é uma regra padrão para a escrita técnica, mas é especialmente importante usar a voz ativa quando você quer soar conversacional.
+
+
+
+=== Voz ativa
+
+Use a voz ativa para que o sujeito da frase realize a ação do verbo. Isso normalmente significa que o verbo segue o sujeito da frase. A voz ativa mantém a escrita nítida e clara. Use usuários ativos de voz e endereço diretamente como "você", a menos que você tenha um motivo específico para usar voz passiva.
+
+Aqui estão alguns exemplos de boa escrita ativa de voz. Escreva assim:
+
+* Forneça as permissões necessárias antes de implantar o primeiro cluster.
+* Se você desligar o sistema incorretamente, a interface exibirá uma mensagem de aviso.
+* NetApp recebeu o contrato.
+
+
+
+
+=== Voz passiva
+
+Na voz passiva, o fazedor da ação não está claro:
+
+* Uma mensagem de aviso é exibida se o sistema for desligado incorretamente.
+* A NetApp recebeu o contrato.
+
+
+Utilize voz passiva quando:
+
+* Você não sabe quem ou o que realizou a ação.
+* Você quer evitar culpar os usuários pelos resultados de uma ação.
+* Você não pode escrever em torno dele, como para algumas informações pré-requisito.
+
+
+
+
+=== Humor imperativo
+
+Use o humor imperativo para etapas, diretivas, solicitações e cabeçalhos para listas de ações do usuário:
+
+* "Na página ambientes de trabalho, clique em descobrir e selecione cluster do ONTAP."
+* "Rode a pega do excêntrico de forma a que fique nivelada com a fonte de alimentação."
+
+
+Considere usar a voz imperativa para substituir a voz passiva:
+
+**Em vez disso**: "As permissões necessárias devem ser fornecidas antes de implantar seu primeiro cluster."
+
+**Faça isso**: "Forneça as permissões necessárias antes de implantar seu primeiro cluster."
+
+Evite usar voz imperativa para incorporar etapas em informações conceituais e de referência.
+
+Para convenções verbais adicionais, veja:
+
+* https://docs.microsoft.com/en-us/style-guide/welcome/["Guia de estilo de escrita da Microsoft"^]
+* https://www.merriam-webster.com/["Merriam-Webster Dicionário Online"^]
+
+
+
+
+== Escreva conteúdo consistente
+
+"Escrever como você fala quando você está explicando algo para um colega profissional" significa algo diferente para todos. Nosso estilo profissional, mas conversacional, ajuda a nos conetar aos usuários e aumenta a frequência de pequenas inconsistências entre vários autores contribuintes:
+
+* Concentre-se em tornar o conteúdo claro e fácil de usar. Se todo o conteúdo for claro e fácil de usar, pequenas inconsistências não importam.
+* Seja consistente dentro da página que você está escrevendo.
+* Siga sempre as orientações em <<Escreva para um público global>>.
+
+
+
+
+== Use linguagem inclusiva
+
+A NetApp acredita que a documentação do produto não deve conter linguagem discriminatória e exclusiva. As palavras que usamos podem fazer a diferença entre forjar um relacionamento positivo com nossos clientes ou aliená-los. Especialmente com palavras escritas, o impactos é mais importante do que a intenção.
+
+Ao criar conteúdo para produtos NetApp, evite linguagem que possa ser interpretada como degradante, racista, sexista ou opressiva. Em vez disso, use uma linguagem acessível e acolhedora para todos que precisam usar a documentação. Por exemplo, em vez de "mestre/escravo" use "primário/secundário".
+
+Use a primeira língua das pessoas onde nos referimos primeiro à pessoa, seguida pela deficiência.
+
+Não use ele, ele, seu, ela, ela ou dela em referências genéricas. Em vez disso:
+
+* Reescreva a frase para usar a segunda pessoa (você).
+* Reescreva a frase para ter um substantivo plural e pronome.
+* Use "o" ou "a" em vez de um pronome (por exemplo, "o documento").
+* Consulte a função de uma pessoa (por exemplo, leitor, funcionário, cliente ou cliente).
+* Use o termo "pessoa" ou "indivíduo".
+
+
+*Exemplos de palavras e frases consideradas inclusivas ou exclusivas*
+
+[cols="50,50"]
+|===
+| Exemplos inclusivos | Exemplos exclusivos 
+
+
+| Primário/secundário | Mestre/escravo 
+
+
+| Lista permitida | Lista de permissões 
+
+
+| Lista bloqueada | Lista negra 
+
+
+| Parar | Matar 
+
+
+| Pare de responder | Calma 
+
+
+| Terminar ou Cancelar | Abortar 
+
+
+| Hora da pessoa | Hora do homem 
+
+
+| Os desenvolvedores precisam de acesso a servidores em seus ambientes de desenvolvimento, mas não precisam de acesso aos servidores no Azure. | Um desenvolvedor precisa de acesso a servidores em seu ambiente de desenvolvimento, mas ele não precisa de acesso a servidores no Azure. 
+
+
+| Pessoa cega | Com deficiência visual 
+
+
+| Pessoa com baixa visão | Visão prejudicada 
+|===
+
+
+== Chegar ao ponto
+
+Cada página deve começar com o que é mais importante para o usuário. Precisamos descobrir o que o usuário está tentando fazer e nos concentrar em ajudá-lo a alcançar esse objetivo. Também devemos adicionar palavras-chave no início da frase para melhorar a capacidade de digitalização.
+
+Siga estas orientações gerais de frases:
+
+* Seja preciso.
+* Evite palavras de preenchimento.
+* Seja curto.
+* Use texto formatado ou listas com marcadores para realçar pontos-chave.
+
+
+*Exemplos de chegar ao ponto*
+
+|===
+| Bons exemplos | Maus exemplos 
+
+
+| Se sua empresa tiver políticas de segurança rígidas, use a criptografia de dados em trânsito para sincronizar dados entre servidores NFS em diferentes redes. | O Cloud Sync pode sincronizar dados de um servidor NFS para outro servidor NFS usando criptografia de dados em trânsito. Criptografar os dados pode ajudar se você tiver políticas de segurança rígidas para transferir dados através de redes. 
+
+
+| Economize tempo criando um modelo de documento que inclua os estilos, formatos e layouts de página que você usa com mais frequência. Em seguida, use o modelo sempre que criar um novo documento. | Os modelos fornecem um ponto de partida para a criação de novos documentos. Um modelo pode incluir os estilos, formatos e layouts de página que você usa com frequência. Considere criar um modelo se você usar frequentemente o mesmo layout de página e estilo para documentos. 
+
+
+| O Astra Control oferece três modos operacionais que você pode atribuir a seus usuários para controlar cuidadosamente o acesso entre o Astra Control e seu ambiente de nuvem. | O Astra Control permite que você atribua um dos três modos operacionais aos usuários em suas contas da AWS. Os modos permitem que você controle cuidadosamente o acesso entre o Astra Control e seu estado de nuvem com base em suas políticas DE TI. 
+|===
+
+
+== Use muitos visuais
+
+A maioria das pessoas são aprendizes visuais. Use vídeos, diagramas e capturas de tela para melhorar a aprendizagem, dividir blocos de texto e fornecer uma sugestão visual para os usuários sobre onde estão nas instruções da tarefa.
+
+* Inclua uma frase de entrada que descreve a imagem a seguir: "A ilustração a seguir mostra os LEDs da fonte de alimentação CA no painel traseiro."
+* Consulte a localização da ilustração como "seguinte" ou "anterior", não "acima" ou "abaixo".
+* Use texto alternativo em visuais incorporados.
+* Se o visual pertencer a uma etapa, inclua o visual logo após a etapa e recuado para alinhar com o número da etapa.
+
+
+Melhores práticas em capturas de tela:
+
+* Não inclua mais de 5 capturas de tela por tarefa.
+* Não inclua texto em uma captura de tela. Em vez disso, use legendas numeradas.
+* Seja criterioso com as capturas de tela que você escolher incluir. As capturas de tela podem ficar desatualizadas rapidamente.
+
+
+Melhores práticas em vídeos ou animações:
+
+* Os vídeos devem ter menos de 5 minutos de duração.
+
+
+.Exemplos
+* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html["Exemplo nº 1 Saiba mais sobre as credenciais e permissões da AWS"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Exemplo nº 2 Proteja seus dados de volume do ONTAP com backup e recuperação do BlueXP "^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Exemplo nº 3 criar um plano de replicação (mostra capturas de tela em uma tarefa)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-gcp-accounts.html#associate-a-marketplace-subscription-with-google-cloud-credentials["Exemplo nº 4 Gerenciar credenciais em vídeo do BlueXP "^]
+
+
+
+
+== Crie conteúdo digitalizável
+
+Ajude os leitores a encontrar conteúdo rapidamente organizando texto em cabeçalhos de seção e usando listas e tabelas. Títulos, frases e parágrafos devem ser curtos e fáceis de ler. As informações mais importantes devem ser fornecidas primeiro.
+
+.Exemplos
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Exemplo nº 1"^]
+* https://docs.netapp.com/us-en/ontap-systems/asa-c800/install-detailed-guide.html["Exemplo nº 2"^]
+
+
+
+
+== Crie fluxos de trabalho que ajudem os usuários a alcançar seu objetivo
+
+Os usuários leem nosso conteúdo para atingir um objetivo específico. Os usuários querem encontrar o conteúdo de que precisam, alcançar seus objetivos e ir para casa para suas famílias. Nosso trabalho não é documentar produtos ou recursos. Nosso trabalho é documentar os objetivos do usuário. Os fluxos de trabalho são a maneira mais direta de ajudar os usuários a alcançar seus objetivos.
+
+Um fluxo de trabalho é uma série de etapas ou subtarefas que descreve como alcançar um objetivo do usuário. O escopo de um fluxo de trabalho é um objetivo completo.
+
+Por exemplo, as etapas para criar um volume não seriam um fluxo de trabalho, porque criar um volume em si não é um objetivo completo. As etapas para tornar o armazenamento disponível para um servidor ESX podem ser um fluxo de trabalho. As etapas incluiriam não apenas criar um volume, mas exportar o volume, definir as permissões necessárias, criar uma interface de rede e assim por diante.
+
+Os fluxos de trabalho são derivados de casos de uso do cliente. Um fluxo de trabalho mostra apenas a melhor maneira de alcançar o objetivo.
+
+
+
+== Organize o conteúdo com base no objetivo do usuário
+
+Ajude os usuários a encontrar informações rapidamente organizando conteúdo com base no objetivo que o usuário está tentando alcançar. Esta norma aplica-se ao índice (navegação) de um site de documentação, bem como às páginas individuais que aparecem no site.
+
+Organize o conteúdo da seguinte forma:
+
+A primeira entrada na navegação à esquerda (nível elevado):: Organize o conteúdo em torno dos objetivos que o usuário está tentando alcançar. Por exemplo, a primeira entrada na navegação para o site pode ser "começar" ou "proteger dados".
+As entradas de segundo nível na navegação para o site de documentação (nível médio):: Organize o conteúdo em torno das tarefas amplas que compõem os objetivos.
++
+--
+Por exemplo, a seção "começar" pode incluir as seguintes páginas:
+
+* Prepare-se para a instalação
+* Instale e configure o <product name>
+* Configure o licenciamento
+* O que você pode fazer a seguir
+
+
+--
+Páginas individuais (nível detalhado):: Em cada página, organize o conteúdo em torno das tarefas individuais que compõem as tarefas amplas. Por exemplo, o conteúdo que os usuários precisam preparar para a instalação ou para configurar a recuperação de desastres.
++
+--
+Uma página pode descrever uma única tarefa ou várias tarefas. Se houver várias tarefas, elas devem ser descritas em seções separadas na página. Cada seção deve se concentrar em um único aspeto de aprendizagem ou de fazer da tarefa ampla. Isso pode incluir algumas informações conceituais e baseadas em referência que são necessárias para concluir a tarefa.
+
+--
+
+
+
+
+== Escreva para um público global
+
+Nossa documentação é lida por muitos usuários cujo idioma principal não é o inglês. Traduzimos nosso conteúdo para outras línguas usando ferramentas de tradução automática neural ou tradução humana. Para apoiar o nosso público global, escrevemos conteúdo fácil de ler e de traduzir.
+
+Siga estas diretrizes para escrever para um público global:
+
+* Escreva frases curtas e simples.
+* Use gramática e pontuação padrão.
+* Use uma palavra para um significado e um significado para uma palavra.
+* Use contrações comuns.
+* Use gráficos para esclarecer ou substituir texto.
+* Evite incorporar texto em gráficos.
+* Evite ter três ou mais substantivos em uma string.
+* Evite antecedentes pouco claros.
+* Evite jargões, coloquialismos e metáforas.
+* Evite exemplos não técnicos.
+* Evite usar retornos e espaçamento difíceis.
+* Não use humor ou ironia.
+* Não use conteúdo discriminatório.
+* Não use linguagem tendenciosa de Gênero a menos que você esteja escrevendo para uma persona específica.
+
+
+
+
+== Diretrizes de a a Z.
+
+
+
+=== siglas e abreviaturas
+
+Use siglas e abreviaturas bem conhecidas para familiaridade, mas evite as obscuras que possam afetar negativamente a clareza e a finabilidade. Para convenções adicionais sobre siglas e abreviaturas, consulte https://learn.microsoft.com/en-us/style-guide/welcome/["Guia de estilo de escrita da Microsoft"^].
+
+
+
+=== voz ativa (versus voz passiva)
+
+<<Escreva ativamente>>Consulte a .
+
+
+
+=== admoestações
+
+As advertências são uma ferramenta poderosa quando usadas corretamente. Eles podem chamar a atenção para informações importantes, fornecer dicas úteis ou avisar os usuários sobre possíveis perigos. Quando sobreutilizados, perdem o seu impactos e podem levar à fadiga do utilizador. Aqui estão algumas diretrizes para garantir o uso eficaz das advertências.
+
+Use os seguintes rótulos para separar as advertências do fluxo de conteúdo principal:
+
+* OBSERVAÇÃO USE A NOTA para destacar informações importantes que devem se destacar do resto do texto. No entanto, evite usar NOTA para informações "agradáveis de saber" que não são essenciais para os usuários entenderem ou concluírem uma tarefa. O objetivo de uma NOTA é chamar a atenção do leitor para pontos críticos que eles poderiam ignorar de outra forma.
+* Dicas devem ser usadas com moderação, se for o caso, pois nossa política é documentar informações de boas práticas por padrão. Se necessário, use O TIP para destacar informações de práticas recomendadas que ajudam os usuários a usar um produto ou concluir uma etapa ou tarefa com mais facilidade e eficiência. UMA DICA deve fornecer conselhos úteis ou atalhos que possam melhorar a experiência do usuário.
+* Cuidado Use cuidado para avisar os usuários sobre condições ou ações que podem levar a resultados indesejáveis, incluindo lesões pessoais ou danos ao equipamento. Deve ser utilizado CUIDADO para chamar a atenção para potenciais perigos que o utilizador deve evitar para evitar danos ou interrupções.
+
+
+.Diretrizes adicionais
+* Use somente advertências apoiadas. Qualquer outro tipo de formatação não é suportado.
+* Evite usar advertências exageradas. O uso excessivo pode levar os usuários a ignorar essas seções importantes porque eles as veem como a "gaveta de lixo" de nossos documentos.
+* Como regra geral, limite o número de advertências a um máximo de 3 por página.
+* Fornecer informações claras e concisas dentro da advertência. A mensagem deve ser breve e ao ponto, permitindo que os usuários entendam rapidamente a importância das informações fornecidas.
+* Evite admoestações AsciiDoc em uma tabela. Se o conteúdo precisar ser identificado como uma nota, dica ou cuidado, use Nota:, Dica: Ou atenção: Como um lead-in em linha para o texto.
+
+
+
+
+=== depois (versus "uma vez")
+
+* Use "depois" para indicar uma cronologia: "Ligue o computador depois de ligá-lo."
+* Use "uma vez" apenas para significar "uma vez".
+
+
+
+
+=== além disso
+
+* Use "também" para significar "adicionalmente".
+* Não use "também" para significar "alternativamente".
+
+
+
+
+=== e/ou
+
+Escolha o termo mais preciso se houver um. Se nenhum termo for mais preciso do que o outro, use "e/ou".
+
+
+
+=== como
+
+Não use "as" para significar "porque".
+
+
+
+=== usando (versus "usando" ou "com")
+
+* Use "usando" quando a entidade que está fazendo o uso for o assunto: "Você pode adicionar novos componentes ao repositório usando o menu componentes."
+* Você pode começar uma frase com "usando" ou "com", que às vezes são aceitáveis com nomes de produtos: "Usando o SnapDrive, você pode gerenciar discos virtuais e cópias Snapshot em um ambiente Windows."
+
+
+
+
+=== can (versus "might", "may", "should" ou "must")
+
+* Use "CAN" para indicar a capacidade: "Você pode confirmar suas alterações a qualquer momento durante este procedimento."
+* Use "might" para indicar a possibilidade: "Baixar vários programas pode afetar o tempo de processamento."
+* Não use "may", o que é ambíguo porque pode significar capacidade ou permissão.
+* Use "deve" para indicar uma ação recomendada, mas opcional. Considere usar uma frase alternativa, como "recomendamos".
+* Evite usar "must" porque é <<Escreva ativamente,passivo>>. Considere rearmar o pensamento como uma instrução usando voz imperativa. Se você usar "deve", use-o para indicar uma ação ou condição necessária.
+
+
+
+
+=== capitalização
+
+Use letras maiúsculas (minúsculas) para quase tudo. Apenas capitalizar:
+
+* A primeira palavra de frases e cabeçalhos, incluindo títulos de tabela
+* A primeira palavra de itens da lista, incluindo fragmentos de frases
+* Substantivos próprios
+* Títulos e legendas do DOC (capitalize todas as palavras principais e preposições de cinco ou mais letras)
+* Elementos de UI, mas somente se eles forem capitalizados na interface. Caso contrário, use letras minúsculas.
+
+
+
+
+=== avisos de cuidado
+
+<<admoestações>>Consulte a .
+
+
+
+=== contrações
+
+<<contrações,contrações>>Use como parte da escrita de forma convergente.
+
+
+
+=== certifique-se (versus "confirmar" ou "verificar")
+
+* Use "garantir" para significar "para ter certeza". Inclua "isso", conforme apropriado: "Assegure-se de que haja espaço em branco suficiente em torno das ilustrações."
+* Nunca use "garantir" para implicar uma promessa ou garantia: "Use o Cloud Manager para garantir que você possa provisionar volumes NFS e CIFS em clusters ONTAP."
+* Use "confirmar" ou "verificar" quando você indicar que o usuário deve verificar duas vezes algo que já existe ou já aconteceu: "Verificar se o NFS está configurado no cluster."
+
+
+
+
+=== gráficos
+
+<<Use muitos visuais>>Consulte a .
+
+
+
+=== gramática
+
+Exceto onde indicado o contrário, siga as convenções de gramática, pontuação e ortografia detalhadas em:
+
+* https://docs.microsoft.com/en-us/style-guide/welcome/["Guia de estilo de escrita da Microsoft"^]
+* https://www.merriam-webster.com/["Merriam-Webster Dicionário Online"^]
+
+
+
+
+=== caso contrário
+
+Não use "se não" por si só para se referir à frase anterior:
+
+* **Em vez disso**: "O computador deve estar desligado. Se não, desligue-o."
+* **Faça isso**: "Verifique se o computador está desligado."
+
+
+
+
+=== se (versus "se" ou "quando")
+
+* Use "se" para indicar uma condição, como em "se isso, então" construções.
+* Use "se" quando houver uma condição "ou não" declarada ou implícita. Para facilitar a tradução, muitas vezes é melhor substituir "se ou não" por "se" sozinho.
+* Use "quando" para indicar uma passagem do tempo.
+
+
+
+
+=== voz imperativa
+
+<<Escreva ativamente>>Consulte a .
+
+
+
+=== funcionalidades ou versões futuras
+
+Não se refira ao tempo ou ao conteúdo das próximas versões ou recursos de produtos, exceto para dizer que um recurso ou função não é "atualmente suportado".
+
+
+
+=== Artigos da KB: Referindo-se
+
+Consulte os artigos da KB (NetApp Knowledgebase) no conteúdo quando apropriado. Para páginas de recursos e conteúdo do GitHub, coloque o link em texto em execução.
+
+
+
+=== listas
+
+Listas de informações são geralmente mais fáceis de digitalizar e absorver do que blocos de texto. Considere maneiras de simplificar informações complexas apresentando-as em forma de lista. Aqui estão algumas diretrizes gerais, mas use seu julgamento:
+
+* Certifique-se de que o motivo da lista está claro. Introduza a lista com uma frase completa, um fragmento de frase com dois pontos ou um título.
+* Ao usar uma lista dentro de uma lista, limite a estrutura para no máximo dois níveis de profundidade para manter a clareza e a legibilidade. Se você precisar de mais níveis, considere reorganizar o conteúdo para facilitar a navegação e a compreensão dos usuários.
+* Qualquer lista, incluindo listas aninhadas, deve ter entre duas e sete entradas. Em geral, quanto mais curta a informação em cada entrada, mais entradas você pode adicionar enquanto mantém a lista digitalizável. Se uma lista tiver várias entradas que contêm listas aninhadas, considere usar seções ou títulos de blocos para dividir a coisa inteira em blocos mais consumíveis.
+* As entradas de lista devem ser tão scannable quanto possível. Evite blocos de texto que atrapalhem manter as entradas da lista digitalizáveis.
+* As entradas de lista devem começar com uma letra maiúscula e as entradas de lista devem ser gramaticalmente paralelas. Por exemplo, inicie cada entrada com um substantivo ou um verbo:
++
+** Se todas as entradas da lista forem frases completas, encerre-as com pontos.
+** Se todas as entradas da lista forem fragmentos de frases, não as termine com pontos.
+
+
+* As entradas de lista devem ser ordenadas de forma lógica, como alfabeticamente ou cronologicamente.
+
+
+
+
+=== localização
+
+<<Escreva para um público global>>Consulte a .
+
+
+
+=== minimalismo
+
+<<Escreva minimamente>>Consulte a .
+
+
+
+=== números
+
+* Use algarismos arábicos para 10 e todos os números maiores que 10, com estas exceções:
++
+** Se você começar uma frase com um número, use uma palavra, não um número arábico.
+** Use palavras (não numerais) para números aproximados.
+
+
+* Use palavras para números menores que 10.
+* Se uma frase contiver uma mistura de números inferiores a 10 e superiores a 10, use algarismos arábicos para todos os números.
+* Para convenções de números adicionais, https://docs.microsoft.com/en-us/style-guide/welcome/["Guia de estilo de escrita da Microsoft"^]consulte .
+
+
+
+
+=== plágio
+
+Documentamos os produtos NetApp e a interação dos produtos NetApp com produtos de terceiros. Não documentamos produtos de terceiros. Nunca devemos precisar copiar e colar conteúdo de terceiros em nossos documentos e nunca devemos fazê-lo.
+
+
+
+=== pré-requisitos
+
+Pré-requisitos Identifique as condições que devem existir ou as ações que os usuários devem ter concluído antes de iniciar a tarefa atual.
+
+* Identifique a natureza do conteúdo com um título, como "pré-requisitos", "antes de começar" ou "antes de começar".
+* Use voz passiva para palavras pré-requisitos se fizer sentido fazê-lo:
++
+** "O NFS ou CIFS deve ser configurado no cluster."
+** "Você deve ter o endereço IP de gerenciamento de cluster e a senha para que a conta de usuário admin adicione o cluster ao Cloud Manager."
+
+
+* Esclareça o pré-requisito conforme necessário: "NFS ou CIFS devem ser configurados no cluster. Você pode configurar NFS e CIFS usando o System Manager ou a CLI."
+* Considere outras maneiras de apresentar as informações, por exemplo, se seria apropriado reformular o conteúdo como o primeiro passo na tarefa atual:
++
+** Pré-requisito: "Você deve ter as permissões necessárias antes de implantar seu primeiro cluster."
+** Passo: "Forneça as permissões necessárias para implantar seu primeiro cluster."
+
+
+
+
+
+
+=== anterior (versus "antes", "anterior" ou "anterior")
+
+* Se possível, substitua "anterior" por "antes".
+* Se você não pode usar "antes", use "anterior" como um adjetivo para se referir a algo que ocorreu mais cedo no tempo ou com uma ordem mais alta de importância.
+* Use "anterior" para indicar algo que ocorreu em um momento não especificado anteriormente.
+* Use "anterior" para indicar algo que ocorreu imediatamente antes.
+
+
+
+
+=== pontuação
+
+Mantenha-o simples. Em geral, quanto mais pontuação incluída em uma frase, mais células cerebrais são necessárias para entender.
+
+* Use uma vírgula serial (vírgula Oxford) antes da conjunção ("e" ou "ou") em uma lista narrativa de três ou mais itens.
+* Limite o uso de ponto e vírgula.
+* Exceto onde indicado o contrário, siga as convenções de gramática, pontuação e ortografia detalhadas em:
++
+** https://docs.microsoft.com/en-us/style-guide/welcome/["Guia de estilo de escrita da Microsoft"^]
+** https://www.merriam-webster.com/["Merriam-Webster Dicionário Online"^]
+
+
+
+
+
+
+=== desde
+
+Use "desde" para indicar uma passagem do tempo. Não use "desde" para significar "porque".
+
+
+
+=== ortografia
+
+Exceto onde indicado o contrário, siga as convenções de gramática, pontuação e ortografia detalhadas em:
+
+* https://docs.microsoft.com/en-us/style-guide/welcome/["Guia de estilo de escrita da Microsoft"^]
+* https://www.merriam-webster.com/["Merriam-Webster Dicionário Online"^]
+
+
+
+
+=== isso (versus "qual" ou "quem")
+
+* Use "that" (sem uma vírgula à direita) para introduzir cláusulas que são necessárias para que a frase faça sentido.
+* Use "that" mesmo que a frase esteja clara em inglês sem ela: "Verifique se o computador está desligado."
+* Use "which" (com uma vírgula à direita) para introduzir cláusulas que adicionam informações de suporte, mas não são necessárias para que a frase faça sentido.
+* Use "who" para introduzir cláusulas referentes às pessoas.
+
+
+
+
+=== marcas comerciais
+
+Não incluímos símbolos de marca comercial na maior parte do nosso conteúdo técnico porque as declarações legais em nossos modelos são suficientes. No entanto, seguimos todas as regras de uso ao usar https://www.netapp.com/us/legal/netapptmlist.aspx["Termos de marca registrada NetApp"^]:
+
+* Use termos de marca registrada (com ou sem o símbolo) apenas como adjetivos, nunca como substantivos, verbos ou verbais.
+* Não abrevie, hifenize ou italize termos marcados com marca registrada.
+* Não pluralize termos de marca registrada. Se uma forma plural for necessária, use o nome de marca registrada como um adjetivo que modifica um substantivo plural.
+* Não use uma forma possessiva de um termo de marca registrada. Você pode usar a forma possessiva de nomes de empresas, como NetApp, quando os nomes estão sendo usados em um sentido geral, em vez de como termos de marca registrada.
+
+
+
+
+=== interface do utilizador
+
+Quando estiver documentando uma interface de usuário, confie na interface o máximo possível para orientar o usuário.
+
+.Orientações gerais
+Use um estilo simples e mimimal ao documentar UIs.
+
+[%collapsible]
+====
+* Suponha que o usuário esteja usando a interface enquanto lê o conteúdo:
++
+** Não conduza o utilizador passo a passo através de um assistente ou ecrã. Apenas chame coisas importantes que não são aparentes da interface.
+** Não inclua "clique em OK" ou "clique em Salvar" ou "o volume é criado" ou qualquer outra coisa que seja óbvia para alguém fazendo a tarefa.
+** Assuma o sucesso. A menos que você espere que uma operação falhe na maioria das vezes, não documente o caminho da falha. Suponha que a interface fornece orientação adequada.
+
+
+* Não use "clique" em tudo. Sempre use "selecionar" porque essa palavra cobre o Mouse, toque, teclado e qualquer outra maneira de fazer uma escolha.
+* Concentre o conteúdo em um fluxo de trabalho que aborde um caso de uso do cliente e em colocar o usuário no lugar certo na interface para iniciar o fluxo de trabalho.
+* Sempre documente a melhor maneira de alcançar o objetivo do usuário.
+* Se o fluxo de trabalho exigir uma decisão significativa, certifique-se de documentar uma regra de decisão.
+* Use o número mínimo de etapas necessárias para a maioria dos usuários na maioria das vezes.
+
+
+====
+.Nomeando elementos de UI
+Evite documentar o nível de granularidade que requer a nomeação de elementos da interface do usuário.
+
+[%collapsible]
+====
+Confie na interface para orientar o usuário através das especificidades da interação. Se você precisar obter esse específico, nomeie o rótulo no elemento. Por exemplo, "selecione o volume pretendido" ou "selecione "utilizar volume existente"." Não há necessidade de nomear menus ou botões de rádio ou caixas de seleção, basta usar o rótulo.
+
+Para ícones que os usuários devem selecionar, use uma imagem do ícone. Não tente nomeá-lo. Esta regra se aplica a ícones como a seta, lápis, engrenagem, kabob, hambúrguer, e assim por diante.
+
+====
+.Representando as etiquetas apresentadas
+Siga a ortografia e a capitalização usadas pela interface do usuário ao identificar rótulos.
+
+[%collapsible]
+====
+Se um rótulo for seguido por elipses, não inclua as elipses ao nomear o objeto. Incentive os desenvolvedores a usar a capitalização estilo título para rótulos de interface de usuário, para facilitar a escrita sobre eles.
+
+====
+.Utilizar capturas de ecrã
+Use capturas de tela com moderação.
+
+[%collapsible]
+====
+Uma captura ocasional de tela ("screenshot") ajuda os usuários a ter certeza de que eles estão no lugar certo em uma interface ao iniciar ou alterar interfaces durante um fluxo de trabalho. Não use capturas de tela para mostrar quais dados inserir ou qual valor selecionar.
+
+====
+
+
+=== enquanto (versus "embora")
+
+* Use "while" para indicar algo que ocorre no tempo.
+* Use "embora" para representar uma atividade que ocorre quase ao mesmo tempo ou pouco depois de outra atividade.
+
