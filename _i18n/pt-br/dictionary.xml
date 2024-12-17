@@ -581,4 +581,8 @@
   <block id="f0e4224652765b139f46a83b11feccc3" category="sidebar">Contribua com conteúdo</block>
   <block id="10d4522e6465e87db3593c69181bea32" category="sidebar">Estilo para documentos NetApp</block>
   <block id="a324d52fee121cff0e9755f81464427a" category="sidebar">Política sobre conteúdo gerado por IA</block>
+  <block id="9180a138d2588804da4de0d6e61ec2bb" category="list-text">Use A PRÁTICA RECOMENDADA para destacar as maneiras ideais de concluir tarefas ou usar um produto. Estas não são meras sugestões, mas estratégias que foram validadas por especialistas ou padrões da indústria.</block>
+  <block id="5b9354127be6b96d635fb856a47f31f1" category="list-text">*O que faz uma MELHOR PRÁTICA?* É uma estratégia prática e específica para tarefas que oferece benefícios claros e é apoiada por fontes confiáveis.</block>
+  <block id="ef8528c9eb4d7dfdd5a91cbbc1bd2643" category="list-text">*Quando posso usá-los?* Você pode usar A PRÁTICA RECOMENDADA para todos os tipos de conteúdo e todos os públicos. Como DICAS, use-as com moderação para manter seu significado.</block>
+  <block id="2354ed6260607168c3cdc6927a1378ef" category="list-text">*Como formatá-los?* Apresente AS MELHORES PRÁTICAS em um formato consistente e fácil de usar. Isso pode ser uma lista de marcadores, lista numerada ou parágrafo, dependendo do contexto.</block>
 </blocks>

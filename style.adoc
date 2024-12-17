@@ -403,6 +403,13 @@ Use os seguintes rótulos para separar as advertências do fluxo de conteúdo pr
 * OBSERVAÇÃO USE A NOTA para destacar informações importantes que devem se destacar do resto do texto. No entanto, evite usar NOTA para informações "agradáveis de saber" que não são essenciais para os usuários entenderem ou concluírem uma tarefa. O objetivo de uma NOTA é chamar a atenção do leitor para pontos críticos que eles poderiam ignorar de outra forma.
 * Dicas devem ser usadas com moderação, se for o caso, pois nossa política é documentar informações de boas práticas por padrão. Se necessário, use O TIP para destacar informações de práticas recomendadas que ajudam os usuários a usar um produto ou concluir uma etapa ou tarefa com mais facilidade e eficiência. UMA DICA deve fornecer conselhos úteis ou atalhos que possam melhorar a experiência do usuário.
 * Cuidado Use cuidado para avisar os usuários sobre condições ou ações que podem levar a resultados indesejáveis, incluindo lesões pessoais ou danos ao equipamento. Deve ser utilizado CUIDADO para chamar a atenção para potenciais perigos que o utilizador deve evitar para evitar danos ou interrupções.
+* Use A PRÁTICA RECOMENDADA para destacar as maneiras ideais de concluir tarefas ou usar um produto. Estas não são meras sugestões, mas estratégias que foram validadas por especialistas ou padrões da indústria.
++
+** *O que faz uma MELHOR PRÁTICA?* É uma estratégia prática e específica para tarefas que oferece benefícios claros e é apoiada por fontes confiáveis.
+** *Quando posso usá-los?* Você pode usar A PRÁTICA RECOMENDADA para todos os tipos de conteúdo e todos os públicos. Como DICAS, use-as com moderação para manter seu significado.
+** *Como formatá-los?* Apresente AS MELHORES PRÁTICAS em um formato consistente e fácil de usar. Isso pode ser uma lista de marcadores, lista numerada ou parágrafo, dependendo do contexto.
+
+
 
 
 .Diretrizes adicionais
