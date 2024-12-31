@@ -398,17 +398,31 @@ Use siglas e abreviaturas bem conhecidas para familiaridade, mas evite as obscur
 
 As advertências são uma ferramenta poderosa quando usadas corretamente. Eles podem chamar a atenção para informações importantes, fornecer dicas úteis ou avisar os usuários sobre possíveis perigos. Quando sobreutilizados, perdem o seu impactos e podem levar à fadiga do utilizador. Aqui estão algumas diretrizes para garantir o uso eficaz das advertências.
 
-Use os seguintes rótulos para separar as advertências do fluxo de conteúdo principal:
+.Admoestações padrão
+Três advertências padrão usam rótulos personalizados. As etiquetas são NOTA, DICA e cuidado. Essas três advertências padrão são formatadas distintamente a partir do texto normal, e suas etiquetas são sempre escritas em maiúsculas na fonte AsciiDoc.
 
 * OBSERVAÇÃO USE A NOTA para destacar informações importantes que devem se destacar do resto do texto. No entanto, evite usar NOTA para informações "agradáveis de saber" que não são essenciais para os usuários entenderem ou concluírem uma tarefa. O objetivo de uma NOTA é chamar a atenção do leitor para pontos críticos que eles poderiam ignorar de outra forma.
-* Dicas devem ser usadas com moderação, se for o caso, pois nossa política é documentar informações de boas práticas por padrão. Se necessário, use O TIP para destacar informações de práticas recomendadas que ajudam os usuários a usar um produto ou concluir uma etapa ou tarefa com mais facilidade e eficiência. UMA DICA deve fornecer conselhos úteis ou atalhos que possam melhorar a experiência do usuário.
+* Dica Use O TIP para fornecer conselhos úteis ou atalhos que podem melhorar a experiência do usuário. Por exemplo, uma DICA pode ajudar um usuário a concluir uma etapa ou tarefa com mais facilidade e eficiência. Uma DICA deve ser usada com moderação, se for o caso, pois nossa política é documentar a melhor maneira de concluir uma tarefa por padrão.
 * Cuidado Use cuidado para avisar os usuários sobre condições ou ações que podem levar a resultados indesejáveis, incluindo lesões pessoais ou danos ao equipamento. Deve ser utilizado CUIDADO para chamar a atenção para potenciais perigos que o utilizador deve evitar para evitar danos ou interrupções.
-* Use A PRÁTICA RECOMENDADA para destacar as maneiras ideais de concluir tarefas ou usar um produto. Estas não são meras sugestões, mas estratégias que foram validadas por especialistas ou padrões da indústria.
-+
-** *O que faz uma MELHOR PRÁTICA?* É uma estratégia prática e específica para tarefas que oferece benefícios claros e é apoiada por fontes confiáveis.
-** *Quando posso usá-los?* Você pode usar A PRÁTICA RECOMENDADA para todos os tipos de conteúdo e todos os públicos. Como DICAS, use-as com moderação para manter seu significado.
-** *Como formatá-los?* Apresente AS MELHORES PRÁTICAS em um formato consistente e fácil de usar. Isso pode ser uma lista de marcadores, lista numerada ou parágrafo, dependendo do contexto.
 
+
+.Admoestação de melhores práticas
+A admoestação de boas práticas não é uma etiqueta de admoestação personalizada, mas pode ser usada como uma convenção de formatação autônoma. Use a prática recomendada para destacar maneiras ideais de concluir tarefas ou usar um produto. Estas não são meras sugestões, mas estratégias que foram validadas por especialistas ou padrões da indústria.
+
+* *O que faz uma melhor prática?*
++
+É uma estratégia prática e específica para tarefas que oferece benefícios claros e é apoiada por fontes confiáveis.
+
+* *Quando posso usar as melhores práticas?*
++
+Você pode usar a prática recomendada para todos os tipos de conteúdo e todos os públicos-alvo. Como DICAS, use-as com moderação para manter seu significado.
+
+* *Como formato as melhores práticas?*
++
+Para usar o formato de boas práticas, aplique maiúsculas no estilo de frase, coloque o termo melhor prática, seguido de dois pontos e um espaço.
+
++
+Apresente as melhores práticas em um formato consistente e fácil de usar. Isso pode ser uma lista com marcadores, lista numerada ou parágrafo, dependendo do contexto. Por exemplo, *prática recomendada*: Sempre teste suas alterações de configuração em um ambiente de teste antes de aplicá-las à produção.
 
 
 
