@@ -147,7 +147,6 @@
   <block id="95765c2dfda7d084715936053f502991" category="paragraph">É isso!</block>
   <block id="514e377a927694fc176e85fdf041aca4" category="inline-link">Confira o Manual do Usuário do AsciiDoctor</block>
   <block id="26c37afe99559e49b8e1997dc66b06a4" category="paragraph">Se você quiser saber mais sobre a diretiva include<block ref="3614cbd0aad04b2c40fced01c250f6c0" category="inline-link-rx"></block>, .</block>
-  <block id="927796bbaa454c7de262b6c5f63a9498" category="doc">Contribua para o conteúdo técnico do NetApp no GitHub</block>
   <block id="5b1673a33a3bc92200f7685076cfb382" category="paragraph">A documentação dos produtos e serviços da NetApp é de código aberto. Isso permite que você contribua para o conteúdo fazendo melhorias, correções e sugestões. Tudo que você precisa é de uma conta no GitHub e uma pequena iniciativa.</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">Visão geral</block>
   <block id="f1eb983643f08d3d76ff0c9dcdd99f9b" category="paragraph">Você pode contribuir com nossos documentos usando as seguintes opções:</block>
@@ -591,4 +590,11 @@
   <block id="36744f1e0c64e2f519e59cccdba068a1" category="list-text">*Como formato as melhores práticas?*</block>
   <block id="c326700655ab8fca23fa2162a1adaa37" category="paragraph">Para usar o formato de boas práticas, aplique maiúsculas no estilo de frase, coloque o termo melhor prática, seguido de dois pontos e um espaço.</block>
   <block id="0c4265fbbfc82a92746e47643f565c1c" category="paragraph">Apresente as melhores práticas em um formato consistente e fácil de usar. Isso pode ser uma lista com marcadores, lista numerada ou parágrafo, dependendo do contexto. Por exemplo, *prática recomendada*: Sempre teste suas alterações de configuração em um ambiente de teste antes de aplicá-las à produção.</block>
+  <block id="264e061aa850fbdff533ac273d529d09" category="summary">A política da NetApp é proibir a publicação de conteúdo gerado por IA que não tenha sido verificado e validado por um ser humano.</block>
+  <block id="d0482f09772a334a3c8f4646a75d2ae4" category="summary">Aprenda a sintaxe AsciiDoc para contribuir com a documentação do NetApp.</block>
+  <block id="a383d20edf0eed3b667f267bc4178aa1" category="summary">Ajude-nos a melhorar a documentação do produto NetApp fazendo melhorias, correções e sugestões.</block>
+  <block id="810127b15467af054cfb3174cf01513c" category="doc">Contribua com a documentação do produto NetApp no GitHub</block>
+  <block id="5fc1774ab777f265a9e9e8436a4165bc" category="summary">Nosso estilo é conversacional e empático, mas ficamos profissionais e chegamos ao ponto.</block>
+  <block id="db974238714ca8de634a7ce1d083a14f" category="section-title">API</block>
+  <block id="e823e37af27041a01f75462ee35c0848" category="paragraph">Uma API (Application Programming Interface) refere-se a uma única interface que fornece acesso a um produto ou serviço específico. Em uma API de produto grande, use o termo _API_ para se referir a cada conjunto de endpoints associados a um tipo de recurso ou componente. Ao se referir a várias interfaces distintas, use o termo _APIs_.</block>
 </blocks>
