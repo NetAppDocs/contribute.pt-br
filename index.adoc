@@ -85,11 +85,7 @@ Se você estiver confortável editando o conteúdo sozinho, você pode enviar as
 
 Como colaborador externo, você não poderá publicar a alteração diretamente. O lead de conteúdo revisará as alterações, fará todas as edições necessárias e, em seguida, mesclará as alterações. Você receberá uma notificação por e-mail do GitHub quando isso acontecer.
 
-Se você precisar de ajuda com nosso estilo de escrita ou sintaxe de origem, você pode usar esses recursos:
-
-* link:style.html["Guia de estilo para documentos do NetApp"]
-* link:asciidoc_syntax.html["Sintaxe AsciiDoc"]
-
+Se precisar de ajuda para editar o arquivo de origem, você podelink:asciidoc_syntax.html["aprenda sobre a sintaxe AsciiDoc"] .
 
 .Passos
 . Se você ainda não tem uma conta no GitHub, https://github.com/join["crie um a partir de github.com"^]
